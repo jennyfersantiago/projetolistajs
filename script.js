@@ -18,7 +18,6 @@ function adicionarTarefa() {
 
     inputTarefa.value = ""
 }
-
 function renderizarTarefas() {
     const listaTarefas = document.getElementById("listaTarefas")
     listaTarefas.innerHTML = ""
